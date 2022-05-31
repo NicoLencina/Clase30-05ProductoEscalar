@@ -22,7 +22,7 @@ function productoEscalar(
   let numA: number = 0;
   for (let index = 0; index <= dimensionArreglo - 1; index++) {
     numA = dato1[index] * dato2[index];
-    escalar = escalar + numA;
+    escalar += numA;
   }
   console.log(escalar);
 }
